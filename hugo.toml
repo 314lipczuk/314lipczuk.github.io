@@ -1,0 +1,17 @@
+baseURL = "https://314lipczuk.github.io/"
+title = "Przemek's blog"
+theme = "hugo-theme-nostyleplease"
+
+[params]
+  # theme-specific options go here
+
+#[menu]
+#  [[menu.main]]
+#    name = "Posts"
+#    url = "/posts/"
+#    weight = 1
+#  [[menu.main]]
+#    name = "About"
+#    url = "/about/"
+#    weight = 2
+#
