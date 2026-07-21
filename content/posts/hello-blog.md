@@ -1,6 +1,6 @@
 +++
 date = '2026-07-21T22:58:16+02:00'
-draft = true
+draft = false
 title = 'Hello world'
 +++
 
@@ -16,4 +16,4 @@ Here's a couple of things I've been thinking about lately:
 - Why can't I steer my mouse pointer with my eyes
 - Exploring Neural tangent kernels for fine-tuning
 - Evolutionary brainfuck (alt. title: breeding programs until they look like biology)
-- theorem-provers for a new approach to learning higher math
+- Theorem-provers for a new approach to learning higher math

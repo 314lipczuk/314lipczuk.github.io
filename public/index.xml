@@ -15,10 +15,10 @@
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Hello world</title>
-				<link>http://localhost:1313/hello-blog/</link>
+				<link>http://localhost:1313/posts/hello-blog/</link>
 				<pubDate>Tue, 21 Jul 2026 22:58:16 +0200</pubDate>
-				<guid>http://localhost:1313/hello-blog/</guid>
-				<description>&lt;p&gt;I don&amp;rsquo;t really have a plan for this blog. A part of me would like to keep a professional, shirt-buttoned-up, recruiter-friendly slop - but there&amp;rsquo;s enough of that on the web already. One can always just go to linkedin.&lt;/p&gt;&#xA;&lt;p&gt;So as an alternative, I want this to be an online scratchpad - a bit chaotic and unstructured, personal.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a couple of things I&amp;rsquo;ve been thinking about lately:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ode to userscripts&lt;/li&gt;&#xA;&lt;li&gt;Controlling live cells with optogenetics and machine learning (alt: what my msc thesis is about)&lt;/li&gt;&#xA;&lt;li&gt;Why can&amp;rsquo;t I steer my mouse pointer with my eyes&lt;/li&gt;&#xA;&lt;li&gt;Exploring Neural tangent kernels for fine-tuning&lt;/li&gt;&#xA;&lt;li&gt;Evolutionary brainfuck (alt. title: breeding programs until they look like biology)&lt;/li&gt;&#xA;&lt;li&gt;theorem-provers for a new approach to learning higher math&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<guid>http://localhost:1313/posts/hello-blog/</guid>
+				<description>&lt;p&gt;I don&amp;rsquo;t really have a plan for this blog. A part of me would like to keep a professional, shirt-buttoned-up, recruiter-friendly slop - but there&amp;rsquo;s enough of that on the web already. One can always just go to linkedin.&lt;/p&gt;&#xA;&lt;p&gt;So as an alternative, I want this to be an online scratchpad - a bit chaotic and unstructured, personal.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a couple of things I&amp;rsquo;ve been thinking about lately:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ode to userscripts&lt;/li&gt;&#xA;&lt;li&gt;Controlling live cells with optogenetics and machine learning (alt: what my msc thesis is about)&lt;/li&gt;&#xA;&lt;li&gt;Why can&amp;rsquo;t I steer my mouse pointer with my eyes&lt;/li&gt;&#xA;&lt;li&gt;Exploring Neural tangent kernels for fine-tuning&lt;/li&gt;&#xA;&lt;li&gt;Evolutionary brainfuck (alt. title: breeding programs until they look like biology)&lt;/li&gt;&#xA;&lt;li&gt;Theorem-provers for a new approach to learning higher math&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
 				<title>About</title>
