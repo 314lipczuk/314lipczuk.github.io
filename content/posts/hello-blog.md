@@ -17,3 +17,4 @@ Here's a couple of things I've been thinking about lately:
 - Exploring Neural tangent kernels for fine-tuning
 - Evolutionary brainfuck (alt. title: breeding programs until they look like biology)
 - Theorem-provers for a new approach to learning higher math
+- Ascetic programming - a study of examples
