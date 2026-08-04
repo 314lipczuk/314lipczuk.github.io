@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Desire Paths
+The first thing that comes up in my image search for &lsquo;desire path&rsquo; is this.
+[[https://allwork.space/2026/01/what-are-desire-paths-and-what-do-they-have-to-do-with-coworking/]]
+I think of this concept often. It comes to my mind every time I try to find &lsquo;X&rsquo; or &rsquo;leave me alone&rsquo; or &lsquo;fuck off&rsquo; on a privacy policy banner, but find only &lsquo;I accept&rsquo; and &lsquo;your privacy choices&rsquo;. Or when a paywall jumps at me just as I move past the first paragraph of an article. It&rsquo;s easy to spot and utilise a desire path when walking through your neigbourhood. On the internet, however, things are different. Adblock helps the browsing experience from becoming completely unbearable, but It&rsquo;s more of a city worker siphoning sewage from inbetween the cobblestones of the road, and not a new alternate path for shaping our experience along a more natural path.">  
+
+  <title>
+    
+      Digital desire paths, or the joy of userscripts
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.900100e9dbee2d56c58fac8bb717037cae7e26a9c36c29d2ff587bdd65f0cbbe510b41d81a3bb234919cdfdc7550d786b2fab70c8fc507772d732fe097106d12.css" integrity="sha512-kAEA6dvuLVbFj6yLtxcDfK5&#43;JqnDbCnS/1h73WXwy75RC0HYGjuyNJGc39x1UNeGsvq3DI/FB3ctcy/glxBtEg==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+                <div class="post-meta">
+                    <a href="/">..</a>
+
+                    <p>
+                        <time datetime="2026-07-28 21:15:16 &#43;0200 CEST">
+                            2026-07-28
+                        </time>
+                    </p>
+                </div>
+
+<article>
+    <h1>Digital desire paths, or the joy of userscripts</h1>
+
+    
+
+    <h2 id="desire-paths">Desire Paths</h2>
+<p>The first thing that comes up in my image search for &lsquo;desire path&rsquo; is this.</p>
+<p>[[https://allwork.space/2026/01/what-are-desire-paths-and-what-do-they-have-to-do-with-coworking/]]</p>
+<p>I think of this concept often. It comes to my mind every time I try to find &lsquo;X&rsquo; or &rsquo;leave me alone&rsquo; or &lsquo;fuck off&rsquo; on a privacy policy banner, but find only &lsquo;I accept&rsquo; and &lsquo;your privacy choices&rsquo;. Or when a paywall jumps at me just as I move past the first paragraph of an article. It&rsquo;s easy to spot and utilise a desire path when walking through your neigbourhood. On the internet, however, things are different. Adblock helps the browsing experience from becoming completely unbearable, but It&rsquo;s more of a city worker siphoning sewage from inbetween the cobblestones of the road, and not a new alternate path for shaping our experience along a more natural path.</p>
+<p>The analogy between walking in the park and browsing the internet breaks down quickly, as desire paths in real life are formed by the fact that many people choose them over the planned paths; What I&rsquo;ll be arguing for is more of a personal solution.</p>
+<p>My answer to this problem (at least in the browsing experience on a computer) is a personal userscript library.</p>
+<blockquote>
+<p>A userscript (or user script) is a program, usually written in JavaScript, for modifying web pages to augment browsing. Uses include adding shortcut buttons and keyboard shortcuts, controlling playback speeds, adding features to sites, and enhancing the browsing history
+Wikipedia</p>
+</blockquote>
+<p>It sounds quite simple, and it is! One often forgets that for all their complexity, web browsers ultimately wrangle quite simple files in the end, and the result is often a bland html document. At the same time, browsers embedd an entire UI stack for us, and both a programmatic and terse way of interacting with it. Javascript, for all it&rsquo;s folly, is quite a good language for a quick and dirty script meant to bend a stubborn website to our will: it can achieve a lot in very few lines, especially if one knows how to search through browser APIs.</p>
+<p>The process of accumulating the scripts took me by suprise. I&rsquo;d scribble a couple lines here and there, just to save myself jumping through a hoop or two on the next wisit to some site, and soon enough colleagues started to say in bewilderment when looking at my screen: &ldquo;Since when does springer link to scihub on their articles?&rdquo;, or &ldquo;How&rsquo;d you get the search bar to actually work?&rdquo;.
+Of course, whenever a thought of automating anything is banging around in my head a [https://xkcd.com/1205/](certain xkcd) is trying hard to act in opposition. And yes, while being technically correct about the timeframes, I&rsquo;d argue that the time shaved off is one thing, but the mental fatigue and a subjective experimence is another (though they do correlate, especially if the time shaved would have been spent waiting or clicking through bullshit).</p>
+<p>So, here&rsquo;s a couple of my own use-cases:</p>
+<h3 id="paywall-avoider">Paywall-avoider</h3>
+<p>Resources like <a href="https://readsomethingwonderful.com/">Read something wonderfull</a> bring me enormous joy. One irk I have, however, is that every now and again I stumble into an article that turns out to be paywalled. With ~5 lines of javascript you can generate a link to paywall-skipped version that clicks itself.</p>
+<h3 id="podcast-player">Podcast player</h3>
+<p>I recently revisited a podcast I&rsquo;ve listened through some years ago. It&rsquo;s hosted online, with simple html masterpage linking all the chapter&rsquo;s <code>.mp3</code> files. I soon grew tired of clicking back and forth between chapters. A <code>querySelector</code>, <code>map</code> and <code>filter</code> on the masterpage later, having ordered list of all the chapters and their URLs, I could embedd simple controls for next/prev chapter on the browser&rsquo;s mp3 player page. Just click next chapter straight from playing previous one.</p>
+<h3 id="brainrot-spiral-mitigator">Brainrot spiral mitigator</h3>
+<p>With some manager-dependent fuckery, you can talk to your localhost (or even external servers) from the script. This means you can have persistent state that is independent of the website itself.
+This technique is a bit more involved, since it requires that you make and run additonal server, but it is also more powerful.
+I figured that I could use this to track the time I spent on social media, and after reaching some threshold, act on my higher self&rsquo;s behalf and firewall the dopamine-filled tarpit away.
+Can I rewrite the rules back? Sure. But in practice the effort exerted to do that is high enough that I usually don&rsquo;t, and so the desired outcome is reached.
+Here I want to make another point: I bet I could do the same with some standard, polished browser extension. But the act of having to think about the problem, and the quick orchestraction of a solution places me into the role of an active participant in problemsolving.
+Imagine my solution stops working, let&rsquo;s say I have a convenient rules-rewriter in my shell history, or in the case of some standard extension I have developed muscle-memory of the exact sequence of clicks to disable it. In the case of the extension, nothing I can do now, but for my script? Hmmm, let&rsquo;s think. I can make it password-protect the unlock mechanism, and give me a password when I solve a sudoku. Or do a n-back puzzle. Or review my flashcards. Or the unlock code is sent to someone I know to pass it back to me. I can actively participate in solving the problem. Could the social pressure make me less likely to ask for the code? Could reviewing my flashcards change my mood to abandon the doomscroll urge? Isn&rsquo;t it wonderful to be able to check and play around?</p>
+<p>All those examples are not single-handedly curing brainrot, fixing the internet, or doing anything high and mighty &ndash; but they serve as a tool and a reminder.A reminder that I can shape my own experience however I please. And a tool to allow doing so with minimal effort.</p>
+<p>PS. This niche could also serve pretty well for teaching people how to program. I&rsquo;m of the opinion that the only way to learn is by doing and the best thing to do is something practical and useful. However, there is a certain level of knowledge, where building a useful program from scratch feels overwhelming, but yet no existing useful program is simple enough to modify and tinker with. Modifying websites is great for this - we already visit them for their content, that&rsquo;s where the usefulness comes from, and we can improve some pain points with our scripts!</p>
+<p>PS 2: If this post convinced you, make sure to familiarise yourself with security implications that usescripts exist in. My simple setup: I have a separate vanilla browser for the &rsquo;logged-in&rsquo; experience (financial transactions, personal information, etc), and a daily driver browser &ndash; enhanced  with multitude of tiny scripts.</p>
+
+</article>
+
+            </div>
+        </main>
+    </body></html>

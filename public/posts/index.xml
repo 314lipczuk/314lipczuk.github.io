@@ -10,15 +10,22 @@
 		
 		
 		
-			<lastBuildDate>Tue, 21 Jul 2026 22:58:16 +0200</lastBuildDate>
+			<lastBuildDate>Tue, 28 Jul 2026 21:15:16 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Digital desire paths</title>
+				<link>http://localhost:1313/posts/the-joy-of-userscripts/</link>
+				<pubDate>Tue, 28 Jul 2026 21:15:16 +0200</pubDate>
+				<guid>http://localhost:1313/posts/the-joy-of-userscripts/</guid>
+				<description>&lt;h1 id=&#34;meta---structure&#34;&gt;Meta - Structure:&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Core:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Browsers as a de facto lens to a large part of our current existence&lt;/li&gt;&#xA;&lt;li&gt;(?) Lack of diversity - security, optimization, controlling the exposition&lt;/li&gt;&#xA;&lt;li&gt;Augument your experience - Userscripts&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Userscripts as a way to regain control over our interactions with the web&lt;/li&gt;&#xA;&lt;li&gt;Websites is where the information already is, natively&lt;/li&gt;&#xA;&lt;li&gt;Websites are easy to scrape, but even easier to control with javascript&lt;/li&gt;&#xA;&lt;li&gt;Web browsers already have great UI and automation tools built-in, and they provide a high-level API - you can do a lot with little lines of code.&lt;/li&gt;&#xA;&lt;li&gt;It doesn&amp;rsquo;t take much - lines of code, javascript, html - great as a beginners&amp;rsquo; project&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-lens&#34;&gt;The lens&lt;/h2&gt;&#xA;&lt;p&gt;The web browser is an interesting beast.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Hello world</title>
 				<link>http://localhost:1313/posts/hello-blog/</link>
 				<pubDate>Tue, 21 Jul 2026 22:58:16 +0200</pubDate>
 				<guid>http://localhost:1313/posts/hello-blog/</guid>
-				<description>&lt;p&gt;I don&amp;rsquo;t really have a plan for this blog. A part of me would like to keep a professional, shirt-buttoned-up, recruiter-friendly slop - but there&amp;rsquo;s enough of that on the web already. One can always just go to linkedin.&lt;/p&gt;&#xA;&lt;p&gt;So as an alternative, I want this to be an online scratchpad - a bit chaotic and unstructured, personal.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a couple of things I&amp;rsquo;ve been thinking about lately:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ode to userscripts&lt;/li&gt;&#xA;&lt;li&gt;Controlling live cells with optogenetics and machine learning (alt: what my msc thesis is about)&lt;/li&gt;&#xA;&lt;li&gt;Why can&amp;rsquo;t I steer my mouse pointer with my eyes&lt;/li&gt;&#xA;&lt;li&gt;Exploring Neural tangent kernels for fine-tuning&lt;/li&gt;&#xA;&lt;li&gt;Evolutionary brainfuck (alt. title: breeding programs until they look like biology)&lt;/li&gt;&#xA;&lt;li&gt;theorem-provers for a new approach to learning higher math&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;p&gt;I don&amp;rsquo;t really have a plan for this blog. A part of me would like to keep a professional, shirt-buttoned-up, recruiter-friendly slop - but there&amp;rsquo;s enough of that on the web already. One can always just go to linkedin.&lt;/p&gt;&#xA;&lt;p&gt;So as an alternative, I want this to be an online scratchpad - a bit chaotic and unstructured, personal.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a couple of things I&amp;rsquo;ve been thinking about lately:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ode to userscripts&lt;/li&gt;&#xA;&lt;li&gt;Controlling live cells with optogenetics and machine learning (alt: what my msc thesis is about)&lt;/li&gt;&#xA;&lt;li&gt;Why can&amp;rsquo;t I steer my mouse pointer with my eyes&lt;/li&gt;&#xA;&lt;li&gt;Exploring Neural tangent kernels for fine-tuning&lt;/li&gt;&#xA;&lt;li&gt;Evolutionary brainfuck (alt. title: breeding programs until they look like biology)&lt;/li&gt;&#xA;&lt;li&gt;Theorem-provers for a new approach to learning higher math&lt;/li&gt;&#xA;&lt;li&gt;Ascetic programming - a study of examples&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 	</channel>
 </rss>

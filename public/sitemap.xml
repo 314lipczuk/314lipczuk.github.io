@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/hello-blog/</loc>
-    <lastmod>2026-07-21T22:58:16+02:00</lastmod>
+    <loc>http://localhost:1313/posts/the-joy-of-userscripts/</loc>
+    <lastmod>2026-07-28T21:15:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-28T21:15:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hello-blog/</loc>
     <lastmod>2026-07-21T22:58:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
